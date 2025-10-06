@@ -1,0 +1,108 @@
+:root{
+  --bg:#f4f7fb;
+  --card:#071226;
+  --screen:#ffffff;
+  --btn:#14202a;
+  --btn-op:#24323f;
+  --fn:#1b2f3b;
+  --accent:#06b6d4;
+  --accent-2:#0891b2;
+  --text-on-dark:#fff;
+}
+*{
+  box-sizing:border-box
+}
+body{ 
+  margin:0; 
+  min-height:100vh; 
+  display:flex; 
+  align-items:center; 
+  justify-content:center;
+  font-family:Inter,system-ui,Arial; background:var(--bg); padding:20px;
+}
+.calc-wrap { 
+  width:100%; 
+  max-width:480px;
+}
+.card { 
+  background:var(--card); 
+  color:var(--text-on-dark); 
+  border-radius:14px; 
+  padding:18px;
+  box-shadow:0 12px 40px rgba(2,6,23,0.28); 
+}
+.header { 
+  display:flex; 
+  justify-content:space-between; 
+  align-items:center; 
+  margin-bottom:12px; 
+}
+.title { 
+  font-size:18px; 
+  color:#bfeff6; 
+}
+.screen { 
+  background:var(--screen); 
+  color:#000; 
+  border-radius:10px; 
+  padding:10px; 
+  margin-bottom:12px; 
+}
+#display { 
+  width:100%; 
+  min-height:56px; 
+  max-height:180px; 
+  resize:none; 
+  border:none; 
+  outline:none;
+  font-size:20px; 
+  text-align:right; 
+  padding:6px; 
+  white-space:pre-wrap; 
+  word-wrap:break-word; 
+  background:transparent; 
+}
+.hint { 
+  font-size:12px; 
+  color:#8eaeb6; 
+  margin-bottom:8px; 
+}
+
+.pad { 
+  display:grid; grid-template-columns:repeat(5,1fr); gap:10px; 
+}
+/* five-column layout for scientific */
+button { 
+  border:none; 
+  border-radius:10px; 
+  padding:12px; 
+  font-size:16px; 
+  cursor:pointer;
+  background:var(--btn); 
+  color:var(--text-on-dark); 
+  transition:transform .06s, background .12s; 
+}
+button:active{
+   transform:translateY(1px); 
+  }
+button.first{ 
+  background:var(--btn-op); 
+  color: rgb(220, 147, 11);
+}
+button.second{ 
+  background:var(--fn); 
+}
+button.eq{ 
+  background:linear-gradient(180deg,var(--accent),var(--accent-2)); 
+  color:#002; font-weight:700; 
+}
+.remove{  
+  background-color: rgb(220, 147, 11);
+}
+
+.meta { 
+  margin-top:30px; font-size:13px; color:#9fb7c7; }
+
+@media(max-width:560px){
+  .pad { grid-template-columns:repeat(4,1fr); }
+}

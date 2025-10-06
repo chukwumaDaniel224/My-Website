@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My Scientific Calculator</title>
+
+<link rel="stylesheet" href="./ScientificCalculator.css">
+
+<script src="./ScientificCalculator.js" defer ></script>
+
+</head>
+<body>
+  <div class="calc-wrap">
+    <div class="card" role="application" aria-label="Scientific calculator">
+      <div class="header">
+        <div class="title">Scientific Calculator</div>
+        <div class="hint"><img src="./logo.png" height="40" alt="my logo"></div>
+      </div>
+
+      <div class="screen">
+        <textarea id="display" readonly aria-live="polite"></textarea>
+      </div>
+
+      <div class="pad" id="pad">
+        <!-- row 1 -->
+        <button class="second" data-val="sin(">sin</button>
+        <button class="second" data-val="cos(">cos</button>
+        <button class="second" data-val="tan(">tan</button>
+        <button class="second" data-val="(">(</button>
+        <button class="second" data-val=")">)</button> 
+
+        <!-- row 2 -->
+        <button class="second" data-val="√(" title="sqrt">√</button>
+        <button class="second" data-val="e">e</button>
+        <button class="second" data-val="π">π</button>
+        <button class="first" data-val="+">+</button>
+        <button class="first" data-val="^" title="power">xʸ</button>
+
+        <!-- row 3 -->
+        <button data-val="7">7</button>
+        <button data-val="8">8</button>
+        <button data-val="9">9</button>
+        <button class="first" data-val="÷">÷</button>
+        <button class="first" data-val="^2" title="square shortcut">x²</button>
+
+        <!-- row 4 -->
+        <button data-val="4">4</button>
+        <button data-val="5">5</button>
+        <button data-val="6">6</button>
+        <button class="first" data-val="×">×</button>
+        <button class="first" data-val="^3" title="cube shortcut">x³</button>
+
+        <!-- row 5 -->
+        <button data-val="1">1</button>
+        <button data-val="2">2</button>
+        <button data-val="3">3</button>
+        <button class="first" data-val="-">−</button>
+        <button class="first" data-val="%">%</button>
+      
+
+        <!-- row 6 -->
+        <button data-val=".">.</button>
+        <button data-val="0">0</button>
+        <button class="first" id="back">⌫</button>
+        <button id="equals" class="eq">=</button>
+        <button id="clear" class="remove">C</button>
+
+        </div>
+
+      <div class="meta">Shortcuts: s=sin, o=cos, t=tan, r=√, p=π, e=e, Enter=Calc</div>
+    </div>
+  </div>
+
+</body>
+</html>
