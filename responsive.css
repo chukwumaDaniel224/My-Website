@@ -29,6 +29,9 @@ img, video, iframe {
     margin-top: 12px;
   }
 
+  .plus {
+    grid-template-columns: 1fr 1fr;
+  }
   .actions {
     flex-direction: column;
     align-items: center;
@@ -85,9 +88,6 @@ img, video, iframe {
     padding: 20px 0;
   }
 
-  .plus {
-    grid-template-columns: 1fr 1fr;
-  }
   .firstlike {
     grid-template-columns: 1fr 1fr;
   }

@@ -121,7 +121,7 @@
       background:var(--glass);
     }
     .darkbtn {
-      background:var(--glass);
+      background: rgba(0, 0, 0, 0.116);
       cursor: pointer;
       font-size: 100%;
     }
