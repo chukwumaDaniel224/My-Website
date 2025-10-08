@@ -84,15 +84,16 @@ img, video, iframe {
   }
   .sele{
     position: absolute;
-    left: 45%;
+    text-align: left;
+    margin-left: 13rem;
     bottom: 11%;
   }
   .actions{
     position: absolute;
-    margin-top: 17%;
+    margin-top: 10%;
   }
   .secondary{
-    left: 20px;
+    left: 70px;
   }
   .hero p {
     font-size: 16px;
