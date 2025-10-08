@@ -85,12 +85,15 @@ img, video, iframe {
   .sele{
     position: absolute;
     padding-left: 45%;
+    bottom: 12%;
   }
   .actions{
     position: absolute;
+    margin-top: 15%;
   }
-  .pef{
-    margin-left: 10rem;
+  .secondary{
+    position: absolute;
+    left: 20rem;
   }
   .hero p {
     font-size: 16px;
@@ -119,6 +122,9 @@ img, video, iframe {
   .lus{
     width: 120px;
     font-size: 13px;
+  }
+  .section-title{
+    padding-top: 35px;
   }
   .grid{
     text-align: left;
