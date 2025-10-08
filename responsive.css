@@ -109,7 +109,7 @@ img, video, iframe {
     margin-left: 5rem;
   }
   .sele{
-    padding-left: 30%;
+    position: absolute;
   }
 
   .section-title{
