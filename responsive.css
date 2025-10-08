@@ -17,7 +17,7 @@ img, video, iframe {
 
   .pic {
     margin: 0 auto;
-    margin-top: 10%;
+    margin-top: 16%;
   }
 
   .actions{
@@ -56,8 +56,8 @@ img, video, iframe {
     border-radius: 6px;
   }
    nav a, nav button {
-    padding: 6px 20px;
-    width: 5rem;
+    padding: 6px 0;
+    width: 4.5rem;
     margin-top: 10px;
     font-size: 1rem;
     background: var(--glass);
@@ -66,13 +66,24 @@ img, video, iframe {
     font-size: 12px;
     text-align: left;
   }
+  .darkbtn {
+      cursor: pointer;
+      font-size: 1.5rem;
+      width: 2.6rem;
+    }
   .lega{
     text-align: left;
   }
   .hero h1 {
     font-size: 26px;
   }
-
+  .side{
+    position: static;
+  }
+  .sele{
+    position: absolute;
+    padding-left: 50%;
+  }
   .hero p {
     font-size: 16px;
     margin: 0 auto;
@@ -82,22 +93,28 @@ img, video, iframe {
   }
 
   .section-title{
-    padding: 20px 0;
+    padding-top: 45px;
+    padding-bottom: 20px;
   }
 
   .firstlike {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 20%;
   }
   .logo{
     width: 2.5rem;
     height: 2.3rem;
     border-radius: 6px;
   }
-  .darkbtn {
-      cursor: pointer;
-      font-size: 1.5rem;
-      width: 2.6rem;
-    }
+  .front{
+    position: absolute;
+  }
+  .side>p{
+    padding-top: 20%;
+  }
+  .lus{
+    width: 7rem;
+  }
   .grid{
     text-align: left;
   } 
@@ -142,6 +159,14 @@ img, video, iframe {
   .lega{
     text-align: left;
   }
+  .side{
+    position: static;
+  }
+  .sele{
+    position: absolute;
+    padding-left: 55%;
+    bottom: 2%;
+  }
   .darkbtn {
       cursor: pointer;
       font-size: 100%;
@@ -154,6 +179,7 @@ img, video, iframe {
 
   .firstlike {
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 20%;
   }
   .pic {
     width: 150px;
