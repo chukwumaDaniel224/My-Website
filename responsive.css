@@ -76,6 +76,9 @@ img, video, iframe {
     font-size: 16px;
     margin: 0 auto;
   }
+  .side{
+    text-align: left;
+  }
 
   .section-title{
     padding: 20px 0;
@@ -95,9 +98,14 @@ img, video, iframe {
   .darkbtn {
       cursor: pointer;
       font-size: 20px;
-      text-align: center;
       width: 60px;
     }
+  .grid{
+    text-align: left;
+  } 
+  .stem{
+    text-align: left;
+  } 
   .anchor {
     margin: 20px;
     justify-content: center;
