@@ -62,20 +62,26 @@ img, video, iframe {
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    align-items: center;
     height: auto;
     padding: 20px;
-    text-align: center;
   }
+  
   .logo{
     width: 2.3rem;
     height: 2.3rem;
     border-radius: 6px;
   }
-  .resumebtn{
+   nav a, nav button {
+    padding: 6px 10px;
+    font-size: 12px;
+    background: var(--glass);
+  }
+  .navi{
     font-size: 12px;
   }
-
+  .lega{
+    text-align: left;
+  }
   .hero h1 {
     font-size: 26px;
   }
@@ -92,7 +98,18 @@ img, video, iframe {
   .plus {
     grid-template-columns: 1fr 1fr;
   }
-
+  .firstlike {
+    grid-template-columns: 1fr 1fr;
+  }
+  .logo{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 6px;
+  }
+  .darkbtn {
+      cursor: pointer;
+      font-size: 100%;
+    }
   .anchor {
     margin: 20px;
     justify-content: center;
@@ -124,19 +141,43 @@ img, video, iframe {
     font-size: 15px;
   }
 
+  .logo{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 6px;
+  }
+  .lega{
+    text-align: left;
+  }
+  .darkbtn {
+      cursor: pointer;
+      font-size: 100%;
+    }
+
   .btn, .secondary, .condary {
     width: 100%;
     text-align: center;
   }
 
+  .firstlike {
+    grid-template-columns: 1fr 1fr;
+  }
   .pic {
     width: 150px;
     height: 160px;
   }
 
+  .timeline{
+      margin:35px 0;
+  }    
+  .footer{
+    padding-bottom: 10px;
+  }
+
   nav a, nav button {
-    padding: 6px 10px;
-    font-size: 14px;
+    padding: 6px 8px;
+    font-size: 10px;
+    background: var(--glass);
   }
 
   form input,
