@@ -85,6 +85,13 @@ img, video, iframe {
     padding-left: 45%;
     margin-top: 6%;
   }
+  .actions{
+    position: absolute;
+    margin-top: 23%;
+  }
+  .pef{
+    margin-left: 10rem;
+  }
   .hero p {
     font-size: 16px;
     margin: 0 auto;
@@ -114,7 +121,8 @@ img, video, iframe {
     padding-top: 20%;
   }
   .lus{
-    width: 8rem;
+    width: 9rem;
+    text-align: center;
     font-size: 13px;
   }
   .grid{
