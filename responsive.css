@@ -57,9 +57,10 @@ img, video, iframe {
   }
    nav a, nav button {
     background: var(--glass);
-    padding: 5px 5px;
+    padding: 5px 9px;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 20px;
+    
   }
   .navi{
     font-size: 12px;
@@ -88,15 +89,14 @@ img, video, iframe {
     position: static;
   }
   .sele{
-    position: absolute;
-    bottom: 100px;
+    position: relative;
+    left: 14rem;
   }
   .actions{
     position: absolute;
-    margin-top: 10%;
   }
   .secondary{
-    margin-left: 90px;
+    margin-left: 15rem;
   }
   .hero p {
     margin: 0 auto;
