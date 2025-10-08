@@ -57,6 +57,7 @@ img, video, iframe {
   }
    nav a, nav button {
     padding: 6px 20px;
+    width: 6rem;
     margin-top: 10px;
     font-size: 16px;
     background: var(--glass);
@@ -97,8 +98,8 @@ img, video, iframe {
   }
   .darkbtn {
       cursor: pointer;
-      font-size: 20px;
-      width: 60px;
+      font-size: 1.5rem;
+      width: 2.6rem;
     }
   .grid{
     text-align: left;
