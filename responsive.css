@@ -59,12 +59,12 @@ img, video, iframe {
   }
   .nav{
     padding-top: 10px;
-    font-size: 18px;
   }
   .nav>a{   
+    font-size: 18px;
     border-radius:10px;
-    padding:5px 10px;
-    width: 90px;
+    padding:5px 5px;
+    font-weight: bold;
   }
   .lega{
     text-align: left;
@@ -107,11 +107,11 @@ img, video, iframe {
   }
   .pic {
     margin: 0 auto;
-    margin-top: 30%;
+    margin-top: 45%;
   }
   .actions{
     position: absolute;
-    padding-top: 60px;
+    padding-top: 70px;
   }
   .secondary{
     margin-left: 5rem;
