@@ -52,8 +52,11 @@ img, video, iframe {
     border-radius: 6px;
   }
    nav a, nav button {
-    background: var(--glass);
-    padding: 5px 5px;
+    background: var(--glass);   
+    border-radius:10px;
+    padding:6px 10px;
+    text-decoration:none;
+    border:1px solid transparent;
     font-size: 20px;
     font-weight: bold;
     width: 27%;
@@ -103,14 +106,11 @@ img, video, iframe {
     margin: 0 auto;
     margin-top: 30%;
   }
-  .actions{
-    position: absolute;
-  }
   .secondary{
     margin-left: 5rem;
   }
   .sele{
-    position: absolute;
+    position: relative;
   }
 
   .section-title{
