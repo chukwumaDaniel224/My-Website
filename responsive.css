@@ -56,15 +56,15 @@ img, video, iframe {
     border-radius: 6px;
   }
    nav a, nav button {
-    padding: 6px 0;
-    width: 4.5rem;
-    margin-top: 10px;
-    font-size: 1rem;
     background: var(--glass);
   }
   .navi{
     font-size: 12px;
     text-align: left;
+  }
+  .pic {
+    margin: 0 auto;
+    margin-top: 25%;
   }
   .darkbtn {
       cursor: pointer;
@@ -82,7 +82,8 @@ img, video, iframe {
   }
   .sele{
     position: absolute;
-    padding-left: 50%;
+    padding-left: 45%;
+    margin-top: 6%;
   }
   .hero p {
     font-size: 16px;
@@ -113,7 +114,8 @@ img, video, iframe {
     padding-top: 20%;
   }
   .lus{
-    width: 7rem;
+    width: 8rem;
+    font-size: 13px;
   }
   .grid{
     text-align: left;
