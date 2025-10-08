@@ -17,7 +17,7 @@ img, video, iframe {
 
   .pic {
     margin: 0 auto;
-    margin-top: 35%;
+    margin-top: 10%;
   }
 
   .actions{
@@ -28,15 +28,6 @@ img, video, iframe {
     margin: 0;
     margin-top: 12px;
   }
-
-  .navi{
-    font-size: 12px;
-    text-align: left;
-  }
-  .lega{
-    text-align: left;
-  }
-
 
   .actions {
     flex-direction: column;
@@ -76,7 +67,6 @@ img, video, iframe {
   }
   .lega{
     text-align: left;
-    font-size: 20px;
   }
   .hero h1 {
     font-size: 26px;
@@ -98,14 +88,15 @@ img, video, iframe {
     grid-template-columns: 1fr 1fr;
   }
   .logo{
-    width: 2.3rem;
+    width: 2.5rem;
     height: 2.3rem;
     border-radius: 6px;
   }
   .darkbtn {
       cursor: pointer;
-      font-size: 25px;
-      width: 10%;
+      font-size: 20px;
+      text-align: center;
+      width: 60px;
     }
   .anchor {
     margin: 20px;
