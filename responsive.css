@@ -57,6 +57,7 @@ img, video, iframe {
   }
    nav a, nav button {
     background: var(--glass);
+    width: 90px;
   }
   .navi{
     font-size: 12px;
@@ -83,11 +84,11 @@ img, video, iframe {
   .sele{
     position: absolute;
     padding-left: 45%;
-    margin-top: 6%;
+    margin-top: 30px;
   }
   .actions{
     position: absolute;
-    margin-top: 23%;
+    margin-top: 20%;
   }
   .pef{
     margin-left: 10rem;
@@ -121,8 +122,7 @@ img, video, iframe {
     padding-top: 20%;
   }
   .lus{
-    width: 9rem;
-    text-align: center;
+    width: 120px;
     font-size: 13px;
   }
   .grid{
