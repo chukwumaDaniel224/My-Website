@@ -1,16 +1,10 @@
-/* ===========================
-   SAFE RESPONSIVE STYLES
-   (keeps all original spacing)
-   =========================== */
 
-/* Make images & media responsive */
 img, video, iframe {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-/* --------- Large tablets & below --------- */
 @media (max-width: 1024px) {
   .hero {
     grid-template-columns: 1fr;
@@ -43,12 +37,6 @@ img, video, iframe {
     text-align: left;
   }
 
-  /*.wish {
-    padding-top: 50px;
-    padding-left: 20px;
-    text-align: center;
-  } 
-    */
 
   .actions {
     flex-direction: column;
@@ -65,7 +53,6 @@ img, video, iframe {
   }
 }
 
-/* --------- Tablets & mid screens --------- */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -135,7 +122,6 @@ img, video, iframe {
   }
 }
 
-/* --------- Small screens (phones) --------- */
 @media (max-width: 480px) {
   body {
     font-size: 14px;
