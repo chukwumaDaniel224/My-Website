@@ -78,15 +78,16 @@ img, video, iframe {
     text-align: left;
   }
   .hero h1 {
-    font-size: 26px;
+    font-size: 20px;
+  }
+  .fot{
+    font-size: 18px;
   }
   .side{
     position: static;
   }
   .sele{
     position: absolute;
-    text-align: left;
-    margin-left: 13rem;
     bottom: 11%;
   }
   .actions{
@@ -94,10 +95,9 @@ img, video, iframe {
     margin-top: 10%;
   }
   .secondary{
-    left: 70px;
+    margin-left: 80px;
   }
   .hero p {
-    font-size: 16px;
     margin: 0 auto;
   }
   .side{
@@ -107,6 +107,7 @@ img, video, iframe {
   .firstlike {
     grid-template-columns: 1fr 1fr;
     margin-bottom: 20%;
+    height: auto;
   }
   .logo{
     width: 2.5rem;
@@ -119,10 +120,7 @@ img, video, iframe {
   .side>p{
     padding-top: 30%;
   }
-  .lus{
-    width: 120px;
-    font-size: 13px;
-  }
+
   .section-title{
     padding-top: 35px;
   }
