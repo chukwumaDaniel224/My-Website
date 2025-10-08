@@ -78,7 +78,8 @@ img, video, iframe {
     text-align: left;
   }
   .hero h1 {
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
   }
   .fot{
     font-size: 18px;
@@ -88,14 +89,13 @@ img, video, iframe {
   }
   .sele{
     position: absolute;
-    bottom: 11%;
   }
   .actions{
     position: absolute;
     margin-top: 10%;
   }
   .secondary{
-    margin-left: 80px;
+    margin-left: 100px;
   }
   .hero p {
     margin: 0 auto;
