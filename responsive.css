@@ -38,10 +38,6 @@ img, video, iframe {
     grid-template-columns: 1fr;
   }
 
-  nav {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 
 @media (max-width: 768px) {
@@ -57,47 +53,44 @@ img, video, iframe {
   }
    nav a, nav button {
     background: var(--glass);
-    padding: 5px 10px;
+    padding: 5px 5px;
     font-weight: bold;
-    font-size: 22px;
+    width: 20%;
     
+  }
+  .lega{
+    text-align: left;
   }
   .navi{
     font-size: 12px;
     text-align: left;
   }
-  .pic {
-    margin: 0 auto;
-    margin-top: 30%;
-  }
+  
   .darkbtn {
       cursor: pointer;
       font-size: 1.5rem;
       width: 2.6rem;
     }
-  .lega{
-    text-align: left;
+  .fot{
+    font-size: 17px;
+  }
+  
+  .firstlike {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20%;
+    height: auto; 
   }
   .hero h1 {
     font-size: 18px;
     font-weight: bold;
-  }
-  .fot{
-    font-size: 18px;
-  }
-  .side{
-    position: static;
-  }
-  .sele{
-    position: relative;
-    left: 7rem;
-    bottom: 5rem;
-  }
-  .actions{
+  } 
+  .build{
+    padding-top: 30%;
+  } 
+  .front{
     position: absolute;
-  }
-  .secondary{
-    margin-left: 7rem;
+    font-size: 18px;
   }
   .hero p {
     margin: 0 auto;
@@ -105,22 +98,18 @@ img, video, iframe {
   .side{
     text-align: left;
   }
-
-  .firstlike {
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 20%;
-    height: auto;
+  .pic {
+    margin: 0 auto;
+    margin-top: 30%;
   }
-  .logo{
-    width: 2.5rem;
-    height: 2.3rem;
-    border-radius: 6px;
-  }
-  .front{
+  .actions{
     position: absolute;
   }
-  .build{
-    padding-top: 30%;
+  .secondary{
+    margin-left: 5rem;
+  }
+  .sele{
+    padding-left: 30%;
   }
 
   .section-title{
