@@ -89,6 +89,7 @@ img, video, iframe {
   }
   .sele{
     position: absolute;
+    bottom: 100px;
   }
   .actions{
     position: absolute;
@@ -130,6 +131,9 @@ img, video, iframe {
   .section-title>h2{
     padding-bottom: 20px;
   } 
+  .contact-card{
+    border-bottom: 1px solid #ffffff;
+  }
   .stem{
     text-align: left;
   } 
