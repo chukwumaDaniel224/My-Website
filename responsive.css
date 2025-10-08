@@ -1,0 +1,146 @@
+/* ===========================
+   SAFE RESPONSIVE STYLES
+   (keeps all original spacing)
+   =========================== */
+
+/* Make images & media responsive */
+img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* --------- Large tablets & below --------- */
+@media (max-width: 1024px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .firstlike {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pic {
+    margin: 0 auto;
+    margin-top: 35%;
+  }
+
+  .actions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 12px;
+    max-width: 13rem;
+    margin: 0;
+    margin-top: 12px;
+  }
+
+
+  /*.wish {
+    padding-top: 50px;
+    padding-left: 20px;
+    text-align: center;
+  } 
+    */
+
+  .actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+/* --------- Tablets & mid screens --------- */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  .logo{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 6px;
+  }
+  .resumebtn{
+    font-size: 12px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    margin: 0 auto;
+  }
+
+  .section-title{
+    padding: 20px 0;
+  }
+
+  .plus {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .anchor {
+    margin: 20px;
+    justify-content: center;
+    display: block;
+      display: grid;
+      grid-template-columns: auto auto auto;
+  }
+  .space{
+    padding: 0 1rem;
+  }
+    
+    .timeline {
+    padding-left: 15px;
+  }
+}
+
+/* --------- Small screens (phones) --------- */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .btn, .secondary, .condary {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pic {
+    width: 150px;
+    height: 160px;
+  }
+
+  nav a, nav button {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
+}

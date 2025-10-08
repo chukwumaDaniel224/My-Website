@@ -47,7 +47,7 @@
     }
     .container{
       width:100%;
-      max-width:var(--max-width)
+      max-width:var(--max-width);
     }
 
     header{
@@ -123,6 +123,7 @@
     .darkbtn {
       background:var(--glass);
       cursor: pointer;
+      font-size: 100%;
     }
     .resumebtn{
       background-color: #081d32;
@@ -135,7 +136,6 @@
 
     .hero{
       display:grid;
-      grid-template-columns:1fc 380px;
       gap:var(--gap);
       align-items:center;
     }
@@ -147,7 +147,6 @@
   }
     .hero p{
       color:var(--brot);
-      max-width:58ch
     }
     .actions{
       margin-top:30px;
@@ -155,23 +154,15 @@
       gap:12px
     }
 
-    .firstlike{
+    .firstlike {
       display: grid;
-      grid-template-columns: auto auto;
+      grid-template-columns: 70% auto;
     }
-    .secondbutt{
+    /*.secondbutt{
       display: grid;
       grid-template-columns: 55% 10%;
-    }
-    .pic{
-      width: 190px;
-      height: 200px;
-      background-image: url(./2025071121433235.jpg);
-      background-size: 100% 125%;
-      border-radius: 100px;
-      box-shadow: var(--muted) 0 0 20px 5px;
-    }
-    .wish{
+    } 
+      .wish{
       padding-top: 100px;
       padding-left: 80px;
     }
@@ -199,6 +190,17 @@
       font-size: 1rem;
       margin-left: 5px;
     }
+      */
+    .pic{
+      width: 190px;
+      height: 200px;
+      background-image: url(./2025071121433235.jpg);
+      background-size: 100% 125%;
+      border-radius: 100px;
+      box-shadow: var(--muted) 0 0 20px 5px;
+      margin-left: 30%;
+    }
+    
     .write{
       color: var(--fg);
     }
@@ -305,7 +307,7 @@
 
 
     .timeline{
-      margin:45px 0;
+      margin:70px 0;
       padding-left:18px;
       border-left:2px solid rgba(11,37,69,0.06)
     }
@@ -350,13 +352,15 @@
     .anchor{
       margin-left: 85%;
       margin-bottom: 50px;
+      display: grid;
+      grid-template-columns: auto auto auto;
     }
     .space{
       padding: 7px;
       cursor: pointer;
     }
     .parent{
-      border-radius: 15px;
+      border-radius: 45%;
     }
 
 
