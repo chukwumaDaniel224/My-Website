@@ -66,7 +66,7 @@ img, video, iframe {
   }
   .pic {
     margin: 0 auto;
-    margin-top: 25%;
+    margin-top: 30%;
   }
   .darkbtn {
       cursor: pointer;
@@ -84,16 +84,15 @@ img, video, iframe {
   }
   .sele{
     position: absolute;
-    padding-left: 45%;
-    bottom: 12%;
+    left: 45%;
+    bottom: 11%;
   }
   .actions{
     position: absolute;
-    margin-top: 15%;
+    margin-top: 17%;
   }
   .secondary{
-    position: absolute;
-    left: 20rem;
+    left: 20px;
   }
   .hero p {
     font-size: 16px;
