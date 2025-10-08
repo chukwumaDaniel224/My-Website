@@ -35,6 +35,13 @@ img, video, iframe {
     margin-top: 12px;
   }
 
+  .navi{
+    font-size: 12px;
+    text-align: left;
+  }
+  .lega{
+    text-align: left;
+  }
 
   /*.wish {
     padding-top: 50px;
@@ -67,17 +74,18 @@ img, video, iframe {
   }
   
   .logo{
-    width: 2.3rem;
+    width: 2.5rem;
     height: 2.3rem;
     border-radius: 6px;
   }
    nav a, nav button {
-    padding: 6px 10px;
-    font-size: 12px;
+    padding: 6px 7px;
+    font-size: 14px;
     background: var(--glass);
   }
   .navi{
     font-size: 12px;
+    text-align: left;
   }
   .lega{
     text-align: left;
@@ -175,7 +183,7 @@ img, video, iframe {
   }
 
   nav a, nav button {
-    padding: 6px 8px;
+    padding: 6px 5px;
     font-size: 10px;
     background: var(--glass);
   }
