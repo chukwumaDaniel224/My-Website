@@ -79,7 +79,7 @@ img, video, iframe {
       width: 2.6rem;
     }
   .fot{
-    font-size: 17px;
+    font-size: 16px;
   }
   
   .firstlike {
@@ -88,13 +88,10 @@ img, video, iframe {
     margin-bottom: 20%;
     height: auto; 
   }
-  .hero h1 {
-    font-size: 16px;
-    font-weight: bold;
-  } 
   .front{
     position: absolute;
-    font-size: 16px;
+    font-size: 17px;
+    font-weight: bold;
   }
   .build{
     padding-top: 30%;
@@ -104,6 +101,9 @@ img, video, iframe {
   }
   .side{
     text-align: left;
+  }
+  .sele{
+    position: absolute;
   }
   .pic {
     margin: 0 auto;

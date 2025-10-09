@@ -74,6 +74,27 @@
     function copyText(text) { navigator.clipboard.writeText(text).then(()=>alert('Copied: '+text)); }
 
 
+    function scrollup() {
+    const scrollBtn = document.getElementById("scrollTopBtn");
+
+    // Show button when scrolling down
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        scrollBtn.style.display = "block";
+      } else {
+        scrollBtn.style.display = "none";
+      }
+    });
+
+    // Smooth scroll to top on click
+    scrollBtn.addEventListener("click", () => {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+   }
+
     function linkedin() { window.open('https://www.linkedin.com/in/daniel-chukwuma-08383930b?trk=contact-info'); }
 
     function github() { window.open('https://github.com/chukwumaDaniel224'); }

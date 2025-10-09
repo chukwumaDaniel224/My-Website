@@ -139,11 +139,12 @@
       gap:var(--gap);
       align-items:center;
     }
-    .hero h1{
+    .front{
       margin: 0;
       padding: 0;
       font-family: calibri;
       font-size:30px;
+      font-weight: bold;
   }
     .hero p{
       color:var(--brot);
@@ -361,6 +362,29 @@
     }
     .parent{
       border-radius: 45%;
+    }
+
+     #scrollTopBtn {
+      position: fixed;
+      text-decoration: none;
+      bottom: 3.5rem;
+      left: 50%;
+      font-size: 18px;
+      font-weight: bolder;
+      border: none;
+      outline: none;
+      background-color: rgba(255, 255, 255, 0.763);
+      color: black;
+      cursor: pointer;
+      padding: 12px 18px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+      transition: 0.2s ease, transform 0.2s ease;
+    }
+
+    #scrollTopBtn:hover {
+      background-color: #dbdadac3;
+      transform: scale(1.1);
     }
 
 
