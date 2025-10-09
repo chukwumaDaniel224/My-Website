@@ -19,7 +19,7 @@
     let count = parseInt(localStorage.getItem("likeCount")) || 0;
 
 
-    if (liked) {
+   /* if (liked) {
       likeBtn.classList.add("liked");
     }
     likeCount.textContent = count;
@@ -45,7 +45,7 @@
 
       localStorage.setItem("liked", liked);
       localStorage.setItem("likeCount", count);
-    });
+    }); */
 
 
 
@@ -73,27 +73,24 @@
 
     function copyText(text) { navigator.clipboard.writeText(text).then(()=>alert('Copied: '+text)); }
 
+    
+      const scrollBtn = document.getElementById("scrollTopBtn");
 
-    function scrollup() {
-    const scrollBtn = document.getElementById("scrollTopBtn");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 100) {
+          scrollBtn.style.display = "block";
+        } else {
+          scrollBtn.style.display = "none";
+        }
+      });
 
-    // Show button when scrolling down
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 100) {
-        scrollBtn.style.display = "block";
-      } else {
-        scrollBtn.style.display = "none";
-      }
-    });
-
-    // Smooth scroll to top on click
-    scrollBtn.addEventListener("click", () => {
+      function scrollup() {
       window.scrollTo({
         top: 0,
         behavior: "smooth"
       });
-    });
-   }
+    }
+    
 
     function linkedin() { window.open('https://www.linkedin.com/in/daniel-chukwuma-08383930b?trk=contact-info'); }
 

@@ -365,10 +365,11 @@
     }
 
      #scrollTopBtn {
+      display: none;
       position: fixed;
       text-decoration: none;
       bottom: 3.5rem;
-      left: 50%;
+      left: 45%;
       font-size: 18px;
       font-weight: bolder;
       border: none;
@@ -379,7 +380,7 @@
       padding: 12px 18px;
       border-radius: 50%;
       box-shadow: 0 4px 10px rgba(0,0,0,0.25);
-      transition: 0.2s ease, transform 0.2s ease;
+      transition: 0.2s, transform 0.2s ease;
     }
 
     #scrollTopBtn:hover {
