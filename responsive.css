@@ -121,7 +121,7 @@ img, video, iframe {
   }
 
   .section-title{
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .grid{
     text-align: left;
@@ -136,8 +136,8 @@ img, video, iframe {
     text-align: left;
   } 
   .anchor {
-    margin: 20px;
-    justify-content: center;
+    margin: 2%;
+    justify-content: right;
     display: block;
       display: grid;
       grid-template-columns: auto auto auto;

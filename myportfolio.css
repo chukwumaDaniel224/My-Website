@@ -356,11 +356,10 @@
       grid-template-columns: auto auto auto;
     }
     .space{
-      padding: 7px;
       cursor: pointer;
     }
     .parent{
-      border-radius: 45%;
+      border-radius: 50%;
     }
 
      #scrollTopBtn {
