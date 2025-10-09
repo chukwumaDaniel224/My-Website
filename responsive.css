@@ -76,6 +76,11 @@ img, video, iframe {
     text-align: left;
   }
   
+  .darkbtn {
+      cursor: pointer;
+      font-size: 1.5rem;
+      width: 2.6rem;
+    }
   .fot{
     font-size: 16px;
   }
