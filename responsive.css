@@ -128,6 +128,7 @@ img, video, iframe {
   }
   .section-title>h2{
     padding-bottom: 20px;
+    padding-top: 10px;
   } 
   .contact-card{
     border-bottom: 1px solid #ffffff;
