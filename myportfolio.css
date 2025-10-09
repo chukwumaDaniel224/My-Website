@@ -374,7 +374,7 @@
       font-weight: bolder;
       border: none;
       outline: none;
-      background-color: rgba(255, 255, 255, 0.763);
+      background-color: rgba(255, 255, 255, 0.475);
       color: black;
       cursor: pointer;
       padding: 12px 18px;
@@ -384,7 +384,7 @@
     }
 
     #scrollTopBtn:hover {
-      background-color: #dbdadac3;
+      background-color: #e5e5e58a;
       transform: scale(1.1);
     }
 
