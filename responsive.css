@@ -97,7 +97,7 @@ img, video, iframe {
     font-weight: bold;
   }
   .build{
-    padding-top: 30%;
+    padding-top: 20%;
   } 
   .hero p {
     margin: 0 auto;
@@ -114,7 +114,7 @@ img, video, iframe {
   }
   .actions{
     position: absolute;
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .secondary{
     margin-left: 5rem;
