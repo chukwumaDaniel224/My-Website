@@ -351,11 +351,11 @@
 
     .anchor{
       margin-left: 85%;
-      margin-bottom: 50px;
       display: grid;
       grid-template-columns: auto auto auto;
     }
     .space{
+      margin: 30px 0;
       cursor: pointer;
     }
     .parent{
