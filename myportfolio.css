@@ -367,7 +367,7 @@
       position: fixed;
       text-decoration: none;
       bottom: 3.5rem;
-      left: 45%;
+      left: 50%;
       font-size: 18px;
       font-weight: bolder;
       border: none;
@@ -429,6 +429,9 @@
   .firstlike {
     grid-template-columns: 1fr 1fr;
   }
+  #scrollTopBtn {
+      left: 45%;
+     }
 
   .pic {
     margin: 0 auto;
@@ -559,6 +562,9 @@
   .stem{
     text-align: left;
   } 
+     #scrollTopBtn {
+      left: 45%;
+     }
   .anchor {
     margin: 2%;
     justify-content: right;
