@@ -1,76 +1,82 @@
-body{
+body {
   background-color: rgb(243, 222, 197);
   font-family: sans-serif;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
-.container{
+
+.container {
   background-color: white;
   box-shadow: rgb(136, 136, 139) 0 0 20px 1px;
   justify-items: center;
-  padding: 20px 0;
-  margin: 50px 200px;
-  max-width: 100%;
-  height: 77vh;
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 900px;
+  width: 90%;
+  height: auto;
   border-radius: 10px;
 }
-.combine{
-  display: grid;
-  grid-template-columns: auto auto;
+
+.combine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.combine>p{
+
+.combine > p {
   font-size: 20px;
   color: rgb(255, 166, 0);
 }
-.combine>div{
-  margin-left: 83%;
-}
-.add{
+
+.add {
   background-color: rgb(229, 174, 101);
   border: none;
   border-radius: 20px;
   color: white;
   font-size: 15px;
   cursor: pointer;
+  padding: 8px 16px;
 }
-.name, .date{
+
+.name, .date {
   background-color: rgb(240, 240, 234);
   border: none;
-  width: 100%;
+  width: 80%;
   font-size: 15px;
   border-radius: 20px;
   padding: 10px;
   transition: ease-in-out 0.3s;
 }
-.name:hover{
-  box-shadow: rgb(136, 136, 139) 0 0 0.5px 1px;
+
+.name:hover,
+.date:hover {
+  box-shadow: rgb(136, 136, 139) 0 0 2px 1px;
 }
-.date:hover{
-  box-shadow: rgb(136, 136, 139) 0 0 0.5px 1px;
-}
-.delete{
+
+.delete {
   background-color: rgb(158, 4, 4);
   border: none;
   border-radius: 20px;
   color: bisque;
   cursor: pointer;
-  padding: 10px;
+  padding: 10px 16px;
 }
 
 .todogrid,
-.todogrid2{
+.todogrid2 {
   display: grid;
-  grid-template-columns: 250px 150px 100px;
+  grid-template-columns: 2fr 1fr auto;
   column-gap: 10px;
   padding: 15px 0;
-  gap: 90px;
   row-gap: 10px;
 }
 
-.todogrid2{
+.todogrid2 {
   margin-bottom: 10px;
-  align-items: stretch;
+  align-items: center;
 }
+
+/* -------- Tablet -------- */
 @media (max-width: 768px) {
   .combine {
     flex-direction: column;
@@ -78,19 +84,25 @@ body{
     gap: 10px;
   }
 
+  .add, .delete {
+    width: 40%;
+  }
+
   .todogrid,
   .todogrid2 {
     grid-template-columns: 1fr 1fr; 
+    gap: 20px;
   }
 }
 
+/* -------- Mobile -------- */
 @media (max-width: 480px) {
   .container {
     padding: 15px;
   }
 
   .add, .delete {
-    width: 100%; 
+    width: 30%; 
     font-size: 0.85rem;
   }
 
