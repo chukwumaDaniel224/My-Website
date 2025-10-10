@@ -1,6 +1,7 @@
 const todolist = [{
-  name: 'Become a Full-stack Developer', 
-duedate: '2026-10-01'
+  name: 'Task', 
+duedate: 'due date',
+delete: 'action'
 }];
 
 renderTodolist();

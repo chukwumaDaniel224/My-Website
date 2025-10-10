@@ -501,7 +501,7 @@
   
   .darkbtn {
       cursor: pointer;
-      font-size: 100%;
+      font-size: 1.5rem;
       width: 2.6rem;
     }
   .fot{
@@ -537,7 +537,7 @@
   }
   .actions{
     position: absolute;
-    padding-top: 48px;
+    padding-top: 53px;
   }
   .secondary{
     margin-left: 5rem;
@@ -575,16 +575,37 @@
   }
 }   
 
-@media(max-width:420px) {
-      .logo{
-        width:48px;
-        height:48px
-      }
-      .hero h1{font-size:28px}
-    }
-    
-  img, video, iframe {
-    max-width: 100%;
-    height: auto;
-    display: block;
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+    padding: 0 15px;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  .btn, .secondary, .condary {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pic {
+    width: 150px;
+    height: 160px;
+  }
+
+  nav a, nav button {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  form input,
+  form textarea {
+    font-size: 14px;
+  }
 }
