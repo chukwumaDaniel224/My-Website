@@ -414,7 +414,11 @@
       width:94%
     }
 
-   
+   img, video, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
 
 @media (max-width: 1024px) {
   .hero {
