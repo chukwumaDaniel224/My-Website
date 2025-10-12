@@ -9,7 +9,7 @@
       themeToggle.textContent = document.body.classList.contains('dark') ? '◑' : '◐';
     });
 
-   
+    /*
     const likeBtn = document.getElementById("likeBtn");
     
     const likeCount = document.getElementById("likeCount");
@@ -19,7 +19,7 @@
     let count = parseInt(localStorage.getItem("likeCount")) || 0;
 
 
-   /* if (liked) {
+   if (liked) {
       likeBtn.classList.add("liked");
     }
     likeCount.textContent = count;
@@ -46,17 +46,11 @@
       localStorage.setItem("liked", liked);
       localStorage.setItem("likeCount", count);
     }); */
+ 
+     
+  
 
 
-
-    const cursor = $('.cursor');
-    document.addEventListener('mousemove', (e) => {
-    
-
-      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
-    });
-
-   
     
     function closeModal() {
       const modal = $('#projectModal');
@@ -103,8 +97,19 @@
     
     $('#year').textContent = new Date().getFullYear();
 
-    
+    window.addEventListener("DOMContentLoaded", function () {
+  console.log("🔎 Script is running!"); // Debug in console
+
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("success") === "true") {
+    alert("✅ Your message has been received!");
+    // Clean up URL so ?success=true disappears
+    window.history.replaceState({}, document.title, window.location.pathname);
+  }
+});
+
+    /*
     document.addEventListener('keydown', (e) => {
       if (e.key === 't') themeToggle.click();
       if (e.key === 'p') $('#seeProjects').scrollIntoView({behavior:'smooth'});
-    });
+    }); */
