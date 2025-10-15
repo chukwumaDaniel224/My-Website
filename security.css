@@ -27,7 +27,7 @@ img { display: block; max-width: 100%; height: auto; }
 p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
 
 .navbar {
-  height: 15vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -71,9 +71,7 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
 }
 
 .attribute:hover {
-  border-bottom: 3px solid lightgrey;
-  border-top: 1px solid lightgrey;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.01));
+  background: linear-gradient( rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.01));
 }
 
 .run { 
@@ -131,6 +129,7 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
 
 .form {
   color: rgb(26, 48, 42);
+  font-weight: bold;
   font-size: 45px;
   font-family: calibri;
   line-height: 40px;
@@ -1249,7 +1248,9 @@ h1, .combo{
 
   .navbar > ul {
   display: flex;
-  gap: 0px;
+  width: 100%;
+  margin: 10px 0;
+  gap: 3px;
   flex-wrap: wrap;  
   justify-content: left;
   list-style: none;
@@ -1258,10 +1259,6 @@ h1, .combo{
 .navbar > li {
   gap: 0rem;
 }
-
-nav ul li {
-    text-align: left;
-  }   
 
 nav a {
   text-decoration:none;
@@ -1275,17 +1272,19 @@ nav a {
 
 .attribute {
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
-  padding: 0;
+  padding: 3px 0;
+  margin: 0;
   height: auto;
-  min-width: 80px;
+  min-width: 65px;
   transition: all 180ms ease;
-}
-  
+  box-shadow: 0px 0px 5px 5px rgba(2,6,23,0.06);
+} 
 
 .run { 
-  padding-left: 250px;
+  padding-left: 150px;
   position: absolute;
   display: flex; 
 }
@@ -1338,8 +1337,8 @@ nav a {
   .gallery{
     height: 100%;
     width: 100%;
-    margin-top: 80px;
-    padding-top: 50px;
+    margin-top: 100px;
+    padding: 90px 60px;
   }
   
   .form {
@@ -1369,7 +1368,7 @@ nav a {
     height: 90px;
   }
   .focus{
-    font-size: 11px;
+    font-size: 8px;
     font-weight: 300;
   }
   .focus:hover{
