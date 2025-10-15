@@ -1,14 +1,7 @@
-/* ===========================
-   security.css — Revised
-   (drop-in replacement for your CSS)
-   =========================== */
 
-/* ========== VARIABLES ========== */
-:root {         /* original page background */
-  --fg: #0b2545;                    /* deep blue text */
-  --muted: #676767;                 /* secondary text */
-  --accent: rgb(229, 174, 101);     /* add / buttons */
-  --accent-2: rgb(255, 166, 0);     /* highlights / tables */
+:root {        
+  --fg: #0b2545;                  
+  --muted: #676767;              
   --danger: rgb(158, 4, 4);
   --card: #ffffff;
   --glass: rgba(11, 37, 69, 0.04);
@@ -16,7 +9,6 @@
   --shadow: 0 10px 30px rgba(11, 37, 69, 0.08);
 }
 
-/* ========== RESET & BASE ========== */
 * {
   margin: 0;
   padding: 0;
@@ -32,10 +24,8 @@ html, body {
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; height: auto; }
 
-/* make unknown tags like <p1> behave like paragraphs */
 p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
 
-/* ========== NAVBAR ========== */
 .navbar {
   height: 15vh;
   width: 100%;
@@ -52,7 +42,6 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   gap: 0.5rem;
 }
 
-/* keep the logo visually where you expected */
 .logo {
    margin-left: 12px; 
   }
@@ -61,7 +50,6 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   width: auto; 
 }
 
-/* nav list */
 .navbar > ul {
   display: flex;
   gap: 0.5rem;
@@ -69,7 +57,7 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   list-style: none;
   gap: 2rem;
 }
-/* original attribute styling preserved, scaled for responsiveness */
+
 .attribute {
   display: flex;
   align-items: center;
@@ -82,14 +70,12 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   transition: all 180ms ease;
 }
 
-/* hover effect as in your original */
 .attribute:hover {
   border-bottom: 3px solid lightgrey;
   border-top: 1px solid lightgrey;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.01));
 }
 
-/* social badges on right */
 .run { 
   display: flex; 
   gap: 1.5rem; 
@@ -123,7 +109,6 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   font-family: chirp;
 }
 
-/* ========== HERO / HOME ========== */
 .home {
   height: auto;
   display: flex;
@@ -246,7 +231,6 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   transition: 400ms;
 }
 
-/* ========== ABOUT ========= */
 .about {
   padding: 32px 80px;
   background-image: linear-gradient(#efefef, #fff);
@@ -337,7 +321,6 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   color: white;
 }
 
-/* partners row */
 .output2 {
   display: flex;
   align-items: center;
@@ -368,7 +351,6 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   justify-content: center;
 }
 
-/* ========== SERVICES ========= */
 .services {
   height: 100%;
   display: flex;
@@ -499,7 +481,6 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   background-color: rgb(107, 110, 113);
 }
 
-/* ========== PAGE (contact/form area) ========= */
 .page {
   flex-direction: column;
 }
@@ -638,7 +619,6 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   bottom: 20%;
 }
 
-/* ========== TESTIMONIALS / HOODIE ========== */
 .hoodie {
   width: 100%;
   flex-direction: column;
@@ -719,43 +699,43 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
 }
 
 .beed{
-    background-color: rgb(107, 110, 113);
-    height: 20rem;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+  background-color: rgb(107, 110, 113);
+  height: 20rem;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .range{
-    width: 100px;
-    height: 30px;
-    border-radius: 3px;
-    background-color: rgb(26, 48, 42); 
-    border: none;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-    cursor: pointer;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: rgb(26, 48, 42); 
+  border: none;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  cursor: pointer;
 }
 .counter{
-    font-family: calibri;
-    transform: scale(200%, 200%);
-    font-size: 20px;
-    line-height: 22px;
-    padding-bottom: 25px;
+  font-family: calibri;
+  transform: scale(200%, 200%);
+  font-size: 20px;
+  line-height: 22px;
+  padding-bottom: 25px;
 }
 .upper{
-    height: 50px;
-    width: 50px;
-    background-color: grey;
-    box-shadow: 0.2px 0.2px 2px 4px  white;
-    border-radius: 50%;
-    margin-top: 9rem;
-    margin-left: 15%;
-    position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: grey;
+  box-shadow: 0.2px 0.2px 2px 4px  white;
+  border-radius: 50%;
+  margin-top: 9rem;
+  margin-left: 15%;
+  position: absolute;
 }
 .blog {
   height: auto;
@@ -784,7 +764,6 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   width: 100%;
 }
 
-/* ========== MINI-ANIMATIONS ========== */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
@@ -798,11 +777,9 @@ p1 { display: block; margin-bottom: 0.75rem; color: var(--muted); }
   50% { transform: translateY(-8px); }
   100% { transform: translateY(0); }
 }
-/* subtle donkey bounce */
 .donkey { animation: bounce 2.4s infinite ease-in-out; }
 
-/* ========== MEDIA QUERIES FOR RESPONSIVENESS ========== */
-/* Global safety */
+/* ========== MEDIA QUERIES FOR RESPONSIVENESS =========== */
 html, body { 
   max-width: 100%; 
   margin: 0;
@@ -814,7 +791,6 @@ html, body {
 }
 img { display: block; max-width: 100%; height: auto; }
 
-/* Make flex children able to shrink without overflow */
 .design1, .output1, .output2, .services, .dens, .rens, .hoodie {
   min-width: 0;
 }
@@ -878,9 +854,6 @@ img { display: block; max-width: 100%; height: auto; }
     width: 100%;
   }
 }
-/* -----------------------
-   TABLET: 769px — 1024px
-   ----------------------- */
 @media (min-width: 769px) and (max-width: 1024px) {
   html, body { overflow-x: hidden; }
 
@@ -903,7 +876,6 @@ h1, .combo{
   height: 30px;
   width: 80px;
 }
-/* original attribute styling preserved, scaled for responsiveness */
 .attribute {
   display: flex;
   align-items: center;
@@ -933,95 +905,93 @@ h1, .combo{
   gap: 2rem;
 }
 
-  /* HOME */
-  .design1 {
-    display: flex;
-    flex-direction: row; /* KEEP row */
-    gap: 12px;
-    align-items: flex-start;
-    justify-content: center;
-  }
-  .img1 { 
-    flex: 0 1 65%; 
-    max-width: 65%; 
-    padding-right: 8px; 
-  }
+.design1 {
+  display: flex;
+  flex-direction: row; 
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.img1 { 
+  flex: 0 1 65%; 
+  max-width: 65%; 
+  padding-right: 8px; 
+}
 
-  .img2 {
-    flex: 0 1 35%; 
-    max-width: 35%; 
-    padding-left: 8px; 
-  }
+.img2 {
+  flex: 0 1 35%; 
+  max-width: 35%; 
+  padding-left: 8px; 
+}
 
-  .table{
-    font-size: 20px;
-    padding-left: 25px;
-  }
-  .level{
-    font-size: 11px;
-    padding: 0 3px;
-  }
+.table{
+  font-size: 20px;
+  padding-left: 25px;
+}
+.level{
+  font-size: 11px;
+  padding: 0 3px;
+}
 
-  .gallery{
-    height: 100%;
-    width: 100%;
-  }
-  
-  .form {
-    font-size: clamp(16px, 4.4vw, 20px);
-    line-height: 1.2;
-    padding: 0 6px;
-    word-break: break-word;
-  }
-  .gallery {
-    height: auto;
-    min-height: 200px;
-    border-radius: 200px;
-    margin-left: 0;
-    max-width: 100%;
-    background-position: center;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-  }
-  .plan { 
-    width: 2.5rem; 
-    height: 2.5rem; 
-    bottom: 35px;
-    position: relative; 
-  }
-  .design2{
-    padding: 0 5%;
-    gap: 0;
-    height: 90px;
-  }
-  .focus{
-    font-size: 18px;
-  }
-  .focus:hover{
-    height: 120%;
-    width: 90%;
-  }
+.gallery{
+  height: 100%;
+  width: 100%;
+}
 
-  /* ABOUT */
-  .about { padding: 18px 12px; }
-  .output1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 14px;
-    align-items: start;
-  }
-  .aa{
-    height: 20rem;
-    background-size: 100% 100%;
-  }
-  .output1 > .field { width: 100%; }
-  
-  .output2{
-    margin: 0;
-    display: flex;
-    flex-direction: row;
-    gap: 11px;
-  }
-  .output2>span {
+.form {
+  font-size: clamp(16px, 4.4vw, 20px);
+  line-height: 1.2;
+  padding: 0 6px;
+  word-break: break-word;
+}
+.gallery {
+  height: auto;
+  min-height: 200px;
+  border-radius: 200px;
+  margin-left: 0;
+  max-width: 100%;
+  background-position: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+.plan { 
+  width: 2.5rem; 
+  height: 2.5rem; 
+  bottom: 35px;
+  position: relative; 
+}
+.design2{
+  padding: 0 5%;
+  gap: 0;
+  height: 90px;
+}
+.focus{
+  font-size: 18px;
+}
+.focus:hover{
+  height: 120%;
+  width: 90%;
+}
+
+.about { padding: 18px 12px; }
+.output1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+  align-items: start;
+}
+.aa{
+  height: 20rem;
+  background-size: 100% 100%;
+}
+.output1 > .field { width: 100%; }
+
+.output2{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+}
+.output2>span {
   display: flex;
   flex-direction: column;
 }
@@ -1030,19 +1000,19 @@ h1, .combo{
   height: 15px;
 }
   
- .services {
-    height: 65%;
-    padding:  0;
-    font-size: 14px;
-  }
-  .element{
-    height: 35%;
-    margin-top: 20px;
-  }
-  .cool{
-    font-size: 12px;
-    padding-top: 10px;
-  }
+.services {
+  height: 65%;
+  padding:  0;
+  font-size: 14px;
+}
+.element{
+  height: 35%;
+  margin-top: 20px;
+}
+.cool{
+  font-size: 12px;
+  padding-top: 10px;
+}
 .bull{
   font-size: 14px;
   height: 20px;
@@ -1175,7 +1145,6 @@ h1, .combo{
   border: 7px solid rgb(2, 58, 2);
 }
    
-/* ========== TESTIMONIALS / HOODIE ========== */
 .hoodie{
   font-size: 16px;
 }
@@ -1265,7 +1234,7 @@ h1, .combo{
   height: 30px;
   width: 80px;
 }
-/* original attribute styling preserved, scaled for responsiveness */
+
 .attribute {
   display: flex;
   align-items: center;
@@ -1295,10 +1264,9 @@ h1, .combo{
   gap: 2rem;
 }
 
-  /* HOME */
   .design1 {
     display: flex;
-    flex-direction: row; /* KEEP row */
+    flex-direction: row; 
     gap: 12px;
     align-items: flex-start;
     justify-content: center;
@@ -1363,7 +1331,6 @@ h1, .combo{
     width: 90%;
   }
 
-  /* ABOUT */
   .about { padding: 18px 12px; }
   .output1 {
     display: grid;
@@ -1456,8 +1423,6 @@ h1, .combo{
   margin-top: 0;
 }
 
-
-
 .page { 
   padding: 0; 
 }
@@ -1539,7 +1504,6 @@ h1, .combo{
   border: 7px solid rgb(2, 58, 2);
 }
    
-/* ========== TESTIMONIALS / HOODIE ========== */
 .hoodie{
   font-size: 12px;
 }
