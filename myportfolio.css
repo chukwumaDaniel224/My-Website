@@ -1,6 +1,6 @@
 @layer base {
   :root {
-    /* Color Palette - Light Mode */
+    
     --background: 35 0% 81%;
     --background-gradient: 0 0 80% ;
     --foreground: 212 65% 16%;
@@ -35,10 +35,10 @@
     --brot: 215 20% 44%;
     --new: 0 0% 100%;
     
-    /* Fluid Spacing */
+    
     --gap: clamp(1rem, 3vw, 1.5rem);
     
-    /* Fluid Typography */
+    
     --text-xs: clamp(0.75rem, 1.5vw, 0.875rem);
     --text-sm: clamp(0.875rem, 1.8vw, 1rem);
     --text-base: clamp(1rem, 2vw, 1.125rem);
@@ -50,7 +50,7 @@
     --radius: 0.75rem;
     --max-width: 1100px;
     
-    /* Shadows */
+   
     --shadow-sm: 0 2px 8px hsl(212 65% 16% / 0.04);
     --shadow-md: 0 8px 20px hsl(212 65% 16% / 0.06);
     --shadow-lg: 0 10px 30px hsl(212 65% 16% / 0.08);
@@ -100,9 +100,7 @@
   }
 }
 
-/* ===========================================
-   BASE STYLES
-   =========================================== */
+
 
 @layer base {
   *,
@@ -139,9 +137,7 @@
   }
 }
 
-/* ===========================================
-   COMPONENT STYLES
-   =========================================== */
+
 
 @layer components {
   /* Container */
@@ -151,7 +147,7 @@
     padding: 0 clamp(1rem, 4vw, 2rem);
   }
 
-  /* Header - Mobile First */
+  
   header {
     display: flex;
     flex-direction: column;
@@ -167,7 +163,7 @@
     box-shadow: var(--shadow-sm);
   }
 
-  /* Brand */
+  
   .brand {
     display: flex;
     align-items: center;
@@ -193,7 +189,7 @@
     color: hsl(var(--lega))
   }
 
-  /* Navigation */
+  
   nav {
     display: flex;
     flex-wrap: wrap;
@@ -235,7 +231,7 @@
     background: hsl(215 25% 35%);
   }
 
-  /* Hero Section */
+ 
   
   .fot {
     width: 0;
@@ -314,7 +310,7 @@
     margin-top: 1.5rem;
   }
 
-  /* Buttons */
+ 
   .btn {
     display: inline-flex;
     align-items: center;
@@ -373,7 +369,7 @@
     background: hsl(215 25% 35%);
   }
 
-  /* Hero Card */
+  
   .hero-card {
     background: hsl(var(--card));
     border-bottom: 1px solid hsl(var(--muted-foreground) / 0.3);
@@ -398,7 +394,7 @@
     color: hsl(var(--foreground));
   }
 
-  /* Section Title */
+ 
   .section-title {
     display: flex;
     flex-direction: column;
@@ -415,7 +411,7 @@
     color: hsl(var(--foreground));
   }
 
-  /* Grid */
+  
   .grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -478,7 +474,7 @@
     background: hsl(var(--glass));
   }
 
-  /* Timeline */
+ 
   .timeline {
     margin: clamp(2rem, 5vw, 3.5rem) 0;
     padding-left: clamp(1rem, 3vw, 1.5rem);
@@ -512,7 +508,7 @@
     font-size: var(--text-sm);
   }
 
-  /* Contact Section */
+  
   .contact {
     display: grid;
     grid-template-columns: 1fr;
@@ -579,7 +575,7 @@
     text-align: left;
   }
 
-  /* Social Links / Anchor */
+ 
   .anchor {
     display: flex;
     justify-content: center;
@@ -602,7 +598,7 @@
     border-radius: 50%;
   }
 
-  /* Scroll to Top */
+  
   #scrollTopBtn {
     display: none;
     position: fixed;
@@ -629,7 +625,7 @@
     transform: translateX(-50%) scale(1.1);
   }
 
-  /* Footer */
+
   footer {
     text-align: center;
     color: hsl(var(--muted-foreground));
@@ -639,7 +635,7 @@
     margin-top: var(--gap);
   }
 
-  /* Modal */
+  
   .modal {
     position: fixed;
     inset: 0;
@@ -666,9 +662,7 @@
   }
 }
 
-/* ===========================================
-   RESPONSIVE - Tablet (768px+)
-   =========================================== */
+
 
 @media (min-width: 768px) {
   header {
@@ -706,9 +700,7 @@
   }
 }
 
-/* ===========================================
-   RESPONSIVE - Desktop (1024px+)
-   =========================================== */
+
 
 @media (min-width: 1024px) {
   .firstlike {
